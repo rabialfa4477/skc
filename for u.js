@@ -7,7 +7,7 @@ let sender = alva;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "....";
+  sender = "alva";
 }
 
 let footer = document.getElementById("credit");
